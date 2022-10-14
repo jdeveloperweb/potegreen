@@ -1,0 +1,30 @@
+CRITICAL - 2022-08-13 08:26:54 --> Call to a member function query() on null
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(220): include()
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('my-profile', Array, true)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(213): view('my-profile', Array)
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_my_profile()
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 08:26:57 --> Call to a member function query() on null
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(220): include()
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('my-profile', Array, true)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(213): view('my-profile', Array)
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_my_profile()
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 08:27:50 --> Call to a member function query() on null
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(220): include()
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('my-profile', Array, true)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(213): view('my-profile', Array)
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_my_profile()
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

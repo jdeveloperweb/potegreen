@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-19 08:44:15 --> Invalid file: index-2.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-2.php')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('index-2', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(22): view('index-2', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_index_2()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

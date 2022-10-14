@@ -1,0 +1,202 @@
+CRITICAL - 2022-08-03 18:25:58 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home2/acgym11/...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-03 18:26:38 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home2/acgym11/...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-03 18:28:01 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home2/acgym11/...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-03 18:28:05 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/home2/acgym11/...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-03 18:28:46 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:29:49 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:29:53 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:31:03 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:34:23 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:37:42 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:38:48 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:38:52 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:38:53 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:38:58 --> Invalid file: pages-profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages-profile.p...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('pages-profile', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(205): view('pages-profile', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_pages_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:39:28 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:41:02 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:41:07 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:42:11 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:49:50 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:49:52 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 18:58:40 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-03 19:04:26 --> Invalid file: partials/profile.php
+#0 /home2/acgym11/galopecerto.com/pote/Admin/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/profil...')
+#1 /home2/acgym11/galopecerto.com/pote/Admin/system/Common.php(1217): CodeIgniter\View\View->render('partials/profil...', Array, true)
+#2 /home2/acgym11/galopecerto.com/pote/Admin/app/Controllers/Home.php(211): view('partials/profil...', Array)
+#3 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(936): App\Controllers\Home->show_profile()
+#4 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home2/acgym11/galopecerto.com/pote/Admin/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home2/acgym11/galopecerto.com/pote/Admin/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
